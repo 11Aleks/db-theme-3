@@ -230,7 +230,7 @@ COMMIT;
 - RESTfull сервіс для управління даними
 
 - app.py:
-
+```python
 from flask import Flask
 
 app = Flask(__name__)
@@ -239,6 +239,7 @@ from role_controller import *
 
 
 - role_model.py:
+
 
 import mysql.connector
 
