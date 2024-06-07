@@ -239,6 +239,7 @@ from role_controller import *
 
 
 - role_model.py:
+```python
 
 
 import mysql.connector
@@ -335,6 +336,7 @@ class Roles:
 
 
 - role_controller.py:
+```python
 
 from flask import request, jsonify
 from role_model import Roles
