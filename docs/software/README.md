@@ -237,7 +237,7 @@ app = Flask(__name__)
 
 from role_controller import *
 
-
+```
 - role_model.py:
 ```python
 
@@ -334,7 +334,7 @@ class Roles:
         except ValueError:
             return {"message": "Invalid role id", "error": "Bad Request", "status_code": 400}
 
-
+```
 - role_controller.py:
 ```python
 
@@ -369,3 +369,4 @@ def delete_role(role_id):
 def update_role(role_id):
     url_params = request.args.to_dict()
     return jsonify(roles.update_role(role_id, url_params))
+```
