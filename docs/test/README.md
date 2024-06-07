@@ -1,7 +1,7 @@
 # Тестування працездатності системи
 
 ## Запуск серевера
-![](./photo/start.jpg)
+![](./start.jpg)
 
 ## Метод GET 
 ![](./photo/get_all_tasks.png)
